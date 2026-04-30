@@ -177,3 +177,6 @@ body.dark-theme .card {
        font-size: 30px;
    }
 }
+.small-img {
+   width: 200px;
+}
