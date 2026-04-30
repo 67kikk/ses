@@ -134,6 +134,7 @@ nav a:hover {
 }
 
 .image-grid img:hover {
+   width: 200px
    transform: translateY(-5px);
 }
 
