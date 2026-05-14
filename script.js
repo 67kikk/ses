@@ -4,19 +4,11 @@ function showAlert() {
 }
 
 // Находим кнопку смены темы
-const themeBtn = document.getElementById('themeToggle');
+const btn = document.getElementById("themeBtn");
 
-// Когда нажимаем на кнопку, меняется тема сайта
-themeBtn.onclick = function() {
-   document.body.classList.toggle('dark-theme');
-
-   if (document.body.classList.contains('dark-theme')) {
-       themeBtn.innerText = "Светлая тема";
-   } else {
-       themeBtn.innerText = "Тёмная тема";
-   }
-};
-
+btn.onclick = function () {
+    document.body.classList.toggle("dark-theme");
+}
 
 // Плавная прокрутка по разделам сайта
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
